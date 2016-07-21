@@ -8,16 +8,6 @@ const cyan = '#cda869';
 const gray = '#9d9d9d'
 const white = '#f8f8f8';
 
-const blackBright = black;
-const redBright = red;
-const greenBright = green;
-const yellowBright = yellow;
-const blueBright = blue;
-const magentaBright = magenta;
-const cyanBright = cyan;
-const grayBright = gray;
-
-const foreground = white;
 const background = black;
 
 const border = black;
@@ -40,14 +30,14 @@ exports.decorateConfig = config => {
             cyan,
             gray,
 
-            blackBright,
-            redBright,
-            greenBright,
-            yellowBright,
-            blueBright,
-            magentaBright,
-            cyanBright,
-            grayBright,
+            black,
+            red,
+            green,
+            yellow,
+            blue,
+            magenta,
+            cyan,
+            gray,
             white
         ],
         css: `
