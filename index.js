@@ -8,6 +8,7 @@ const cyan = '#cda869';
 const gray = '#9d9d9d'
 const white = '#f8f8f8';
 
+const foreground = white;
 const background = black;
 
 const border = black;
