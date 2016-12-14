@@ -13,7 +13,7 @@ const foreground = white;
 const background = black;
 
 const border = darkGray;
-const cursor = darkGray;
+const cursor = 'rgba(248,248,248,0.6)';
 
 exports.decorateConfig = config => {
     return Object.assign({}, config, {
