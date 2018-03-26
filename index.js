@@ -22,26 +22,27 @@ exports.decorateConfig = config => {
         borderColor: border,
         cursorColor: cursor,
 
-        colors: [
-            black,
-            red,
-            green,
-            yellow,
-            blue,
-            magenta,
-            cyan,
-            gray,
+        colors: {
+          black: black,
+          red: red,
+          green: green,
+          yellow: yellow,
+          blue: blue,
+          magenta: magenta,
+          cyan: cyan,
+          gray: gray,
+          white: white,
+          lightBlack: black,
+          lightRed: red,
+          lightGreen: green,
+          lightYellow: yellow,
+          lightBlue: blue,
+          lightMagenta: magenta,
+          lightCyan: cyan,
+          lightGray: gray,
+          lightWhite: white
+        },
 
-            black,
-            red,
-            green,
-            yellow,
-            blue,
-            magenta,
-            cyan,
-            gray,
-            white
-        ],
         css: `
             ${config.css || ''}
             .tab_active:before {
