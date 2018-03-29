@@ -7,4 +7,9 @@
 
 ## Install
 
-Add `hyperterm-twilight` to the plugins list in your `~/.hyperterm.js` config file.
+With [hpm](github.com/zeit/hpm)
+```bash
+$ hpm install hyperterm-twilight
+```
+
+Or add `hyperterm-twilight` to the plugins list in your `~/.hyperterm.js` config file.
